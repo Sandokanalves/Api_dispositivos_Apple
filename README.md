@@ -4,7 +4,7 @@ Essa API foi requisitada pela empresa Overmind para avaliação Tecnica.
 Foi estipulado um Tempo de 1H para completar o desafio e criar API.
 
 ## Visão Geral
-Esta API RESTful foi desenvolvida em .NET e tem como objetivo consumir dados de uma API externa (<https://api.restful-api.dev/objects>), filtrando apenas os dispositivos da marca Apple e extraindo os campos `Name` e `Price`. Os dados extraídos são salvos em um arquivo CSS, cujo nome e caminho são definidos pelo usuário ao fazer a requisição para o endpoint da API.
+Esta API RESTful foi desenvolvida em .NET e tem como objetivo consumir dados de uma API externa (<https://api.restful-api.dev/objects>), filtrando apenas os dispositivos da marca Apple e extraindo os campos `Name` e `Price`. Os dados extraídos são salvos em um arquivo CSV, cujo nome e caminho são definidos pelo usuário ao fazer a requisição para o endpoint da API.
 
 ## Tecnologias Utilizadas
 - .NET Core 7.0
