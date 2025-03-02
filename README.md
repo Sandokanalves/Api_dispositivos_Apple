@@ -13,17 +13,17 @@ Esta API RESTful foi desenvolvida em .NET e tem como objetivo consumir dados de 
 
 ## Endpoints Disponíveis
 
-### 1. Criar Arquivo CSS com os Dados dos Dispositivos Apple
+### 1. Criar Arquivo CSV com os Dados dos Dispositivos Apple
 
 
- Filtra os dispositivos Apple, extrai os campos `Name` e `Price`, e gera um arquivo CSS no caminho especificado.
+ Filtra os dispositivos Apple, extrai os campos `Name` e `Price`, e gera um arquivo CSV no caminho especificado.
  Obs: no DispositivoController.cs Alterar no construtor o caminho onde será salvo no diretorio o arquivo CSV. 
 
 
 ## Considerações
 - O usuário deve garantir que o caminho passado possui permissão de escrita.
-- O nome do arquivo deve incluir a extensão `.css`.
+- O nome do arquivo deve incluir a extensão `.csv`.
 - O consumo da API externa pode falhar caso ela esteja fora do ar ou tenha mudanças na estrutura de resposta.
 
-Essa documentação cobre toda a funcionalidade da API e explica como modificar o caminho e nome do arquivo CSS na requisição.
+Essa documentação cobre toda a funcionalidade da API e explica como modificar o caminho e nome do arquivo CSV na requisição.
 
